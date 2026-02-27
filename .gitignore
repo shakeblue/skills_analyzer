@@ -43,6 +43,9 @@ htmlcov/
 # Docker
 *.log
 
+# Server logs & PID files
+logs/
+
 # Misc
 *.bak
 *.tmp
