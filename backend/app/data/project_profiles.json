@@ -1,0 +1,319 @@
+[
+  {
+    "id": "p-001",
+    "name": "Magento E-commerce Platform",
+    "platform": "Magento",
+    "description": "Enterprise-grade e-commerce platform built on PHP, featuring modular architecture, EAV data modeling, and extensive customization capabilities for large-scale online retail operations.",
+    "categories": [
+      {
+        "name": "Core Language",
+        "weight": 0.25,
+        "skills": [
+          { "name": "PHP 8", "required_level": 4, "importance": "critical" },
+          { "name": "OOP Patterns", "required_level": 4, "importance": "critical" },
+          { "name": "Composer", "required_level": 3, "importance": "important" }
+        ]
+      },
+      {
+        "name": "Frontend",
+        "weight": 0.15,
+        "skills": [
+          { "name": "Knockout.js", "required_level": 3, "importance": "important" },
+          { "name": "RequireJS", "required_level": 2, "importance": "nice_to_have" },
+          { "name": "LESS/CSS", "required_level": 3, "importance": "important" },
+          { "name": "jQuery", "required_level": 2, "importance": "nice_to_have" }
+        ]
+      },
+      {
+        "name": "Platform Architecture",
+        "weight": 0.30,
+        "skills": [
+          { "name": "Module Development", "required_level": 5, "importance": "critical" },
+          { "name": "EAV Architecture", "required_level": 4, "importance": "critical" },
+          { "name": "Plugin/Preference System", "required_level": 4, "importance": "critical" },
+          { "name": "Service Contracts", "required_level": 3, "importance": "important" },
+          { "name": "GraphQL API", "required_level": 3, "importance": "important" }
+        ]
+      },
+      {
+        "name": "Database & APIs",
+        "weight": 0.15,
+        "skills": [
+          { "name": "MySQL", "required_level": 4, "importance": "critical" },
+          { "name": "REST API Design", "required_level": 3, "importance": "important" },
+          { "name": "Elasticsearch", "required_level": 2, "importance": "nice_to_have" }
+        ]
+      },
+      {
+        "name": "DevOps",
+        "weight": 0.10,
+        "skills": [
+          { "name": "Docker", "required_level": 3, "importance": "important" },
+          { "name": "CI/CD", "required_level": 2, "importance": "nice_to_have" },
+          { "name": "Cloud Deployment", "required_level": 2, "importance": "nice_to_have" }
+        ]
+      },
+      {
+        "name": "Domain Knowledge",
+        "weight": 0.05,
+        "skills": [
+          { "name": "E-commerce Concepts", "required_level": 3, "importance": "important" },
+          { "name": "Payment Integration", "required_level": 2, "importance": "nice_to_have" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p-002",
+    "name": "Shopify Development",
+    "platform": "Shopify",
+    "description": "Full-stack Shopify development encompassing custom theme creation with Liquid templating, app development using Shopify App Bridge, and deep integration with Shopify's storefront and admin APIs.",
+    "categories": [
+      {
+        "name": "Core Language",
+        "weight": 0.20,
+        "skills": [
+          { "name": "JavaScript/ES6+", "required_level": 4, "importance": "critical" },
+          { "name": "Liquid Templating", "required_level": 5, "importance": "critical" },
+          { "name": "HTML5/CSS3", "required_level": 3, "importance": "important" }
+        ]
+      },
+      {
+        "name": "Storefront",
+        "weight": 0.25,
+        "skills": [
+          { "name": "Theme Development", "required_level": 4, "importance": "critical" },
+          { "name": "Shopify CLI", "required_level": 4, "importance": "critical" },
+          { "name": "Storefront API", "required_level": 3, "importance": "important" },
+          { "name": "Dawn Theme", "required_level": 3, "importance": "important" }
+        ]
+      },
+      {
+        "name": "App Development",
+        "weight": 0.25,
+        "skills": [
+          { "name": "Shopify App Bridge", "required_level": 4, "importance": "critical" },
+          { "name": "Polaris UI", "required_level": 3, "importance": "important" },
+          { "name": "Webhooks", "required_level": 3, "importance": "important" },
+          { "name": "Node.js", "required_level": 3, "importance": "important" }
+        ]
+      },
+      {
+        "name": "APIs",
+        "weight": 0.15,
+        "skills": [
+          { "name": "REST Admin API", "required_level": 4, "importance": "critical" },
+          { "name": "GraphQL Storefront API", "required_level": 3, "importance": "important" },
+          { "name": "OAuth", "required_level": 3, "importance": "important" }
+        ]
+      },
+      {
+        "name": "Tools",
+        "weight": 0.10,
+        "skills": [
+          { "name": "Git", "required_level": 3, "importance": "important" },
+          { "name": "Testing", "required_level": 2, "importance": "nice_to_have" },
+          { "name": "Performance Optimization", "required_level": 2, "importance": "nice_to_have" }
+        ]
+      },
+      {
+        "name": "Domain Knowledge",
+        "weight": 0.05,
+        "skills": [
+          { "name": "E-commerce Concepts", "required_level": 3, "importance": "important" },
+          { "name": "Conversion Optimization", "required_level": 2, "importance": "nice_to_have" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p-003",
+    "name": "React/Next.js Platform",
+    "platform": "React/Next.js",
+    "description": "Modern full-stack web development platform leveraging React 18 and Next.js 14 with App Router, Server Components, and Server Actions for building performant, SEO-friendly web applications.",
+    "categories": [
+      {
+        "name": "Core Language",
+        "weight": 0.25,
+        "skills": [
+          { "name": "TypeScript", "required_level": 4, "importance": "critical" },
+          { "name": "JavaScript ES6+", "required_level": 4, "importance": "critical" },
+          { "name": "HTML5/CSS3", "required_level": 3, "importance": "important" }
+        ]
+      },
+      {
+        "name": "Framework",
+        "weight": 0.30,
+        "skills": [
+          { "name": "React 18", "required_level": 5, "importance": "critical" },
+          { "name": "Next.js 14 App Router", "required_level": 5, "importance": "critical" },
+          { "name": "Server Components", "required_level": 4, "importance": "critical" },
+          { "name": "Server Actions", "required_level": 3, "importance": "important" }
+        ]
+      },
+      {
+        "name": "State & Data",
+        "weight": 0.15,
+        "skills": [
+          { "name": "Zustand/Redux", "required_level": 3, "importance": "important" },
+          { "name": "TanStack Query", "required_level": 3, "importance": "important" },
+          { "name": "REST/GraphQL", "required_level": 3, "importance": "important" }
+        ]
+      },
+      {
+        "name": "Styling",
+        "weight": 0.10,
+        "skills": [
+          { "name": "Tailwind CSS", "required_level": 4, "importance": "critical" },
+          { "name": "CSS Modules", "required_level": 2, "importance": "nice_to_have" },
+          { "name": "Responsive Design", "required_level": 3, "importance": "important" }
+        ]
+      },
+      {
+        "name": "Testing",
+        "weight": 0.10,
+        "skills": [
+          { "name": "Jest", "required_level": 3, "importance": "important" },
+          { "name": "React Testing Library", "required_level": 3, "importance": "important" },
+          { "name": "Playwright/Cypress", "required_level": 2, "importance": "nice_to_have" }
+        ]
+      },
+      {
+        "name": "DevOps",
+        "weight": 0.10,
+        "skills": [
+          { "name": "Vercel/Deployment", "required_level": 3, "importance": "important" },
+          { "name": "Docker", "required_level": 2, "importance": "nice_to_have" },
+          { "name": "CI/CD", "required_level": 2, "importance": "nice_to_have" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p-004",
+    "name": "Laravel Platform",
+    "platform": "Laravel",
+    "description": "Full-featured PHP web application platform built on Laravel 11, offering elegant syntax, Eloquent ORM, Blade templating, and a rich ecosystem for building robust, scalable server-side applications.",
+    "categories": [
+      {
+        "name": "Core Language",
+        "weight": 0.25,
+        "skills": [
+          { "name": "PHP 8", "required_level": 4, "importance": "critical" },
+          { "name": "OOP Patterns", "required_level": 4, "importance": "critical" },
+          { "name": "Composer", "required_level": 3, "importance": "important" }
+        ]
+      },
+      {
+        "name": "Framework",
+        "weight": 0.30,
+        "skills": [
+          { "name": "Laravel 11", "required_level": 5, "importance": "critical" },
+          { "name": "Eloquent ORM", "required_level": 4, "importance": "critical" },
+          { "name": "Blade Templates", "required_level": 3, "importance": "important" },
+          { "name": "Middleware", "required_level": 3, "importance": "important" },
+          { "name": "Artisan CLI", "required_level": 3, "importance": "important" }
+        ]
+      },
+      {
+        "name": "Database",
+        "weight": 0.15,
+        "skills": [
+          { "name": "MySQL", "required_level": 4, "importance": "critical" },
+          { "name": "Redis", "required_level": 3, "importance": "important" },
+          { "name": "Database Migrations", "required_level": 3, "importance": "important" }
+        ]
+      },
+      {
+        "name": "Frontend",
+        "weight": 0.10,
+        "skills": [
+          { "name": "Vue.js/Livewire", "required_level": 3, "importance": "important" },
+          { "name": "Tailwind CSS", "required_level": 3, "importance": "important" },
+          { "name": "Inertia.js", "required_level": 2, "importance": "nice_to_have" }
+        ]
+      },
+      {
+        "name": "Testing",
+        "weight": 0.10,
+        "skills": [
+          { "name": "PHPUnit", "required_level": 3, "importance": "important" },
+          { "name": "Feature Tests", "required_level": 3, "importance": "important" },
+          { "name": "Pest", "required_level": 2, "importance": "nice_to_have" }
+        ]
+      },
+      {
+        "name": "DevOps",
+        "weight": 0.10,
+        "skills": [
+          { "name": "Docker", "required_level": 3, "importance": "important" },
+          { "name": "Laravel Forge/Vapor", "required_level": 2, "importance": "nice_to_have" },
+          { "name": "CI/CD", "required_level": 2, "importance": "nice_to_have" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p-005",
+    "name": "Node.js Platform",
+    "platform": "Node.js",
+    "description": "Server-side JavaScript platform for building scalable backend services and APIs using Express.js or NestJS, with support for both SQL and NoSQL databases, real-time communication, and modern DevOps practices.",
+    "categories": [
+      {
+        "name": "Core Language",
+        "weight": 0.25,
+        "skills": [
+          { "name": "TypeScript", "required_level": 4, "importance": "critical" },
+          { "name": "JavaScript ES6+", "required_level": 4, "importance": "critical" },
+          { "name": "Node.js Runtime", "required_level": 4, "importance": "critical" }
+        ]
+      },
+      {
+        "name": "Framework",
+        "weight": 0.25,
+        "skills": [
+          { "name": "Express.js", "required_level": 4, "importance": "critical" },
+          { "name": "NestJS", "required_level": 3, "importance": "important" },
+          { "name": "Middleware Patterns", "required_level": 3, "importance": "important" }
+        ]
+      },
+      {
+        "name": "Database",
+        "weight": 0.15,
+        "skills": [
+          { "name": "MongoDB", "required_level": 3, "importance": "important" },
+          { "name": "PostgreSQL", "required_level": 3, "importance": "important" },
+          { "name": "Prisma/Mongoose ORM", "required_level": 3, "importance": "important" }
+        ]
+      },
+      {
+        "name": "APIs",
+        "weight": 0.15,
+        "skills": [
+          { "name": "REST API Design", "required_level": 4, "importance": "critical" },
+          { "name": "GraphQL", "required_level": 3, "importance": "important" },
+          { "name": "WebSockets", "required_level": 2, "importance": "nice_to_have" },
+          { "name": "Authentication/JWT", "required_level": 3, "importance": "important" }
+        ]
+      },
+      {
+        "name": "Testing",
+        "weight": 0.10,
+        "skills": [
+          { "name": "Jest", "required_level": 3, "importance": "important" },
+          { "name": "Supertest", "required_level": 3, "importance": "important" },
+          { "name": "Integration Testing", "required_level": 2, "importance": "nice_to_have" }
+        ]
+      },
+      {
+        "name": "DevOps",
+        "weight": 0.10,
+        "skills": [
+          { "name": "Docker", "required_level": 3, "importance": "important" },
+          { "name": "AWS/Cloud", "required_level": 2, "importance": "nice_to_have" },
+          { "name": "CI/CD", "required_level": 2, "importance": "nice_to_have" }
+        ]
+      }
+    ]
+  }
+]

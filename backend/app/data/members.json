@@ -1,0 +1,112 @@
+[
+  {
+    "id": "m-001",
+    "name": "Member 1",
+    "department": "Engineering",
+    "role": "Senior PHP Developer",
+    "avatar_url": null,
+    "github_url": "https://github.com/member1",
+    "cv_uploaded": true,
+    "code_uploaded": true,
+    "created_at": "2025-08-15T09:00:00Z"
+  },
+  {
+    "id": "m-002",
+    "name": "Member 2",
+    "department": "Engineering",
+    "role": "Senior Frontend Developer",
+    "avatar_url": null,
+    "github_url": "https://github.com/member2",
+    "cv_uploaded": true,
+    "code_uploaded": true,
+    "created_at": "2025-09-01T09:00:00Z"
+  },
+  {
+    "id": "m-003",
+    "name": "Member 3",
+    "department": "Engineering",
+    "role": "Full-Stack Developer",
+    "avatar_url": null,
+    "github_url": "https://github.com/member3",
+    "cv_uploaded": true,
+    "code_uploaded": true,
+    "created_at": "2025-07-20T09:00:00Z"
+  },
+  {
+    "id": "m-004",
+    "name": "Member 4",
+    "department": "Engineering",
+    "role": "Backend Developer",
+    "avatar_url": null,
+    "github_url": "https://github.com/member4",
+    "cv_uploaded": true,
+    "code_uploaded": true,
+    "created_at": "2025-10-05T09:00:00Z"
+  },
+  {
+    "id": "m-005",
+    "name": "Member 5",
+    "department": "Engineering",
+    "role": "Shopify Developer",
+    "avatar_url": null,
+    "github_url": "https://github.com/member5",
+    "cv_uploaded": true,
+    "code_uploaded": true,
+    "created_at": "2025-06-10T09:00:00Z"
+  },
+  {
+    "id": "m-006",
+    "name": "Member 6",
+    "department": "Engineering",
+    "role": "Python Developer",
+    "avatar_url": null,
+    "github_url": "https://github.com/member6",
+    "cv_uploaded": true,
+    "code_uploaded": true,
+    "created_at": "2025-11-01T09:00:00Z"
+  },
+  {
+    "id": "m-007",
+    "name": "Member 7",
+    "department": "Engineering",
+    "role": "Full-Stack Developer",
+    "avatar_url": null,
+    "github_url": "https://github.com/member7",
+    "cv_uploaded": true,
+    "code_uploaded": true,
+    "created_at": "2025-08-25T09:00:00Z"
+  },
+  {
+    "id": "m-008",
+    "name": "Member 8",
+    "department": "DevOps",
+    "role": "DevOps Engineer",
+    "avatar_url": null,
+    "github_url": "https://github.com/member8",
+    "cv_uploaded": true,
+    "code_uploaded": true,
+    "created_at": "2025-05-15T09:00:00Z"
+  },
+  {
+    "id": "m-009",
+    "name": "Member 9",
+    "department": "Design",
+    "role": "UI/UX Developer",
+    "avatar_url": null,
+    "github_url": null,
+    "cv_uploaded": true,
+    "code_uploaded": false,
+    "created_at": "2025-12-01T09:00:00Z"
+  },
+  {
+    "id": "m-010",
+    "name": "Member 10",
+    "department": "Engineering",
+    "role": "Senior PHP Developer",
+    "avatar_url": null,
+    "github_url": "https://github.com/member10",
+    "cv_uploaded": true,
+    "code_uploaded": true,
+    "created_at": "2025-09-15T09:00:00Z"
+  }
+]

@@ -1,0 +1,1891 @@
+[
+  {
+    "id": "sp-001",
+    "member_id": "m-001",
+    "skills": [
+      {
+        "name": "PHP 8",
+        "level": 5,
+        "evidence_sources": [
+          { "type": "cv", "detail": "8 years PHP experience listed on CV, including PHP 8 migration projects" },
+          { "type": "github", "detail": "173 contributions to PHP repositories in last year" },
+          { "type": "code", "detail": "Advanced PHP 8 features (enums, fibers, named arguments) in uploaded code samples" }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "name": "OOP Patterns",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Listed design patterns expertise including Factory, Observer, and Strategy" },
+          { "type": "code", "detail": "Repository and Service pattern implementations in uploaded Magento modules" }
+        ],
+        "confidence": 0.88
+      },
+      {
+        "name": "Composer",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Package management and dependency resolution experience noted" },
+          { "type": "github", "detail": "Maintains 3 public Composer packages on Packagist" }
+        ],
+        "confidence": 0.87
+      },
+      {
+        "name": "MySQL",
+        "level": 5,
+        "evidence_sources": [
+          { "type": "cv", "detail": "7 years MySQL experience with query optimization and replication setup" },
+          { "type": "code", "detail": "Complex stored procedures and indexed query designs in uploaded samples" },
+          { "type": "github", "detail": "Database migration scripts across multiple Magento projects" }
+        ],
+        "confidence": 0.94
+      },
+      {
+        "name": "Magento Module Development",
+        "level": 5,
+        "evidence_sources": [
+          { "type": "cv", "detail": "6 years dedicated Magento 2 development, built 15+ custom modules" },
+          { "type": "github", "detail": "42 contributions to magento2-module repo and 3 published Marketplace extensions" },
+          { "type": "code", "detail": "Custom module with dependency injection, plugins, and observers in uploaded samples" }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "name": "EAV Architecture",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Extensive work with Magento EAV model for custom product attributes" },
+          { "type": "code", "detail": "Custom EAV attribute setup scripts and flat table indexers in uploaded code" }
+        ],
+        "confidence": 0.89
+      },
+      {
+        "name": "Plugin/Preference System",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Deep expertise in Magento plugin (interceptor) and preference system" },
+          { "type": "code", "detail": "Before/after/around plugin implementations in uploaded module code" },
+          { "type": "github", "detail": "Plugin-based customizations across 8 Magento project repos" }
+        ],
+        "confidence": 0.90
+      },
+      {
+        "name": "Service Contracts",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Experience implementing Magento service contracts and repository pattern" },
+          { "type": "code", "detail": "Repository interface implementations in uploaded code samples" }
+        ],
+        "confidence": 0.82
+      },
+      {
+        "name": "REST API Design",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Designed RESTful APIs for Magento storefront and third-party integrations" },
+          { "type": "github", "detail": "Custom REST endpoint implementations in magento2-api-extensions repo" }
+        ],
+        "confidence": 0.87
+      },
+      {
+        "name": "Docker",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Docker-based local development environments for Magento projects" },
+          { "type": "github", "detail": "Docker Compose configurations in project repositories" }
+        ],
+        "confidence": 0.80
+      },
+      {
+        "name": "CI/CD",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Basic experience with GitHub Actions for automated testing" }
+        ],
+        "confidence": 0.72
+      },
+      {
+        "name": "Knockout.js",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Frontend Magento checkout and UI component customizations using Knockout.js" },
+          { "type": "code", "detail": "Custom Knockout.js components for Magento checkout steps in uploaded code" }
+        ],
+        "confidence": 0.83
+      },
+      {
+        "name": "jQuery",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "jQuery-based frontend interactions in Magento theme development" },
+          { "type": "code", "detail": "jQuery widget mixins and custom UI interactions in uploaded samples" }
+        ],
+        "confidence": 0.81
+      },
+      {
+        "name": "LESS/CSS",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Basic LESS customization for Magento themes" }
+        ],
+        "confidence": 0.73
+      },
+      {
+        "name": "E-commerce Concepts",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "6 years in e-commerce, managed catalog systems with 50K+ SKUs" },
+          { "type": "code", "detail": "Complex pricing rules and cart logic in uploaded module code" }
+        ],
+        "confidence": 0.90
+      },
+      {
+        "name": "Payment Integration",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Integrated Stripe, PayPal, and Adyen payment gateways in Magento" },
+          { "type": "code", "detail": "Custom payment method module with tokenization in uploaded samples" }
+        ],
+        "confidence": 0.84
+      },
+      {
+        "name": "GraphQL API",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Exposure to Magento GraphQL API for headless storefront projects" }
+        ],
+        "confidence": 0.68
+      },
+      {
+        "name": "Elasticsearch",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Configured Elasticsearch for Magento catalog search" }
+        ],
+        "confidence": 0.70
+      },
+      {
+        "name": "JavaScript ES6+",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Basic JavaScript for Magento frontend customizations" }
+        ],
+        "confidence": 0.74
+      },
+      {
+        "name": "HTML5/CSS3",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "HTML/CSS for Magento theme modifications" }
+        ],
+        "confidence": 0.72
+      }
+    ]
+  },
+  {
+    "id": "sp-002",
+    "member_id": "m-002",
+    "skills": [
+      {
+        "name": "TypeScript",
+        "level": 5,
+        "evidence_sources": [
+          { "type": "cv", "detail": "5 years TypeScript experience with strict mode in all projects" },
+          { "type": "github", "detail": "312 contributions to TypeScript repositories, multiple open-source type libraries" },
+          { "type": "code", "detail": "Advanced generics, conditional types, and mapped types in uploaded code" }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "name": "JavaScript ES6+",
+        "level": 5,
+        "evidence_sources": [
+          { "type": "cv", "detail": "7 years JavaScript development, ES6+ features in all projects" },
+          { "type": "github", "detail": "Extensive JS contributions across 20+ repositories" }
+        ],
+        "confidence": 0.94
+      },
+      {
+        "name": "React 18",
+        "level": 5,
+        "evidence_sources": [
+          { "type": "cv", "detail": "5 years React experience, early adopter of React 18 concurrent features" },
+          { "type": "github", "detail": "Lead maintainer of 3 React component libraries with 500+ stars combined" },
+          { "type": "code", "detail": "Suspense, useTransition, and concurrent rendering patterns in uploaded code" }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "name": "Next.js 14 App Router",
+        "level": 5,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Built 4 production Next.js 14 applications using App Router architecture" },
+          { "type": "github", "detail": "Next.js App Router starter template repo with 200+ stars" },
+          { "type": "code", "detail": "Complex routing, parallel routes, and intercepting routes in uploaded samples" }
+        ],
+        "confidence": 0.94
+      },
+      {
+        "name": "Server Components",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Architected server component strategies for data-heavy dashboards" },
+          { "type": "github", "detail": "RSC patterns documented in blog posts and example repos" }
+        ],
+        "confidence": 0.88
+      },
+      {
+        "name": "Server Actions",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Implemented form handling and mutations using Next.js Server Actions" },
+          { "type": "code", "detail": "Server action patterns with optimistic updates in uploaded project code" }
+        ],
+        "confidence": 0.87
+      },
+      {
+        "name": "Zustand/Redux",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "State management with Redux (3 years) and Zustand (2 years)" },
+          { "type": "github", "detail": "Custom Zustand middleware published as npm package" }
+        ],
+        "confidence": 0.89
+      },
+      {
+        "name": "TanStack Query",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Server state management with TanStack Query in production apps" },
+          { "type": "code", "detail": "Custom query hooks with optimistic updates and cache invalidation strategies" }
+        ],
+        "confidence": 0.86
+      },
+      {
+        "name": "Tailwind CSS",
+        "level": 5,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Primary CSS framework for last 3 years, custom design system built on Tailwind" },
+          { "type": "github", "detail": "Tailwind plugin and custom component library repo" },
+          { "type": "code", "detail": "Responsive, accessible component system using Tailwind in uploaded code" }
+        ],
+        "confidence": 0.93
+      },
+      {
+        "name": "CSS Modules",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Used CSS Modules in legacy Next.js projects before Tailwind adoption" }
+        ],
+        "confidence": 0.78
+      },
+      {
+        "name": "Responsive Design",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Mobile-first responsive design across all frontend projects" },
+          { "type": "code", "detail": "Breakpoint strategies and fluid typography in uploaded design system" }
+        ],
+        "confidence": 0.88
+      },
+      {
+        "name": "Jest",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "4 years Jest experience, maintained 90%+ coverage on React projects" },
+          { "type": "github", "detail": "Comprehensive test suites visible in open-source React repos" }
+        ],
+        "confidence": 0.89
+      },
+      {
+        "name": "React Testing Library",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Integration and component testing with RTL best practices" },
+          { "type": "code", "detail": "User-centric test patterns with custom render utilities in uploaded tests" }
+        ],
+        "confidence": 0.87
+      },
+      {
+        "name": "Playwright/Cypress",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "E2E testing with Playwright for critical user flows" },
+          { "type": "github", "detail": "Playwright test configurations in project repositories" }
+        ],
+        "confidence": 0.80
+      },
+      {
+        "name": "HTML5/CSS3",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Strong semantic HTML and modern CSS skills" },
+          { "type": "code", "detail": "Accessible markup patterns in uploaded component code" }
+        ],
+        "confidence": 0.88
+      },
+      {
+        "name": "REST/GraphQL",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "API consumption experience with REST and GraphQL clients" },
+          { "type": "github", "detail": "GraphQL client integrations in Next.js project repos" }
+        ],
+        "confidence": 0.81
+      },
+      {
+        "name": "Vercel/Deployment",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Deployed 6 production Next.js apps on Vercel with custom domains" }
+        ],
+        "confidence": 0.79
+      },
+      {
+        "name": "Docker",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Basic Docker usage for local development environments" }
+        ],
+        "confidence": 0.71
+      },
+      {
+        "name": "CI/CD",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "GitHub Actions for automated testing and Vercel preview deployments" }
+        ],
+        "confidence": 0.72
+      },
+      {
+        "name": "Node.js",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Node.js for API routes and build tooling in Next.js projects" },
+          { "type": "github", "detail": "Server-side Node.js code in Next.js API routes across repos" }
+        ],
+        "confidence": 0.80
+      },
+      {
+        "name": "Git",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Daily Git usage with branching strategies and code review workflows" },
+          { "type": "github", "detail": "Active GitHub profile with consistent contribution history" }
+        ],
+        "confidence": 0.88
+      }
+    ]
+  },
+  {
+    "id": "sp-003",
+    "member_id": "m-003",
+    "skills": [
+      {
+        "name": "PHP 8",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "5 years PHP experience, adopted PHP 8 features in Laravel projects" },
+          { "type": "github", "detail": "PHP 8 code with enums and match expressions across Laravel repos" }
+        ],
+        "confidence": 0.88
+      },
+      {
+        "name": "OOP Patterns",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Strong OOP skills with SOLID principles in Laravel architecture" },
+          { "type": "code", "detail": "Service-repository pattern implementations in uploaded Laravel project" }
+        ],
+        "confidence": 0.87
+      },
+      {
+        "name": "Laravel 11",
+        "level": 5,
+        "evidence_sources": [
+          { "type": "cv", "detail": "5 years Laravel experience, lead developer on 3 enterprise Laravel 11 apps" },
+          { "type": "github", "detail": "128 contributions to Laravel projects, custom package with 80+ stars" },
+          { "type": "code", "detail": "Advanced Laravel features including Jobs, Events, and custom Artisan commands" }
+        ],
+        "confidence": 0.94
+      },
+      {
+        "name": "Eloquent ORM",
+        "level": 5,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Expert-level Eloquent including polymorphic relations and query scopes" },
+          { "type": "github", "detail": "Complex Eloquent query optimizations visible in project commits" },
+          { "type": "code", "detail": "Custom Eloquent casts and accessors in uploaded application code" }
+        ],
+        "confidence": 0.93
+      },
+      {
+        "name": "Blade Templates",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Extensive Blade templating with components and layouts" },
+          { "type": "code", "detail": "Reusable Blade component library in uploaded project" }
+        ],
+        "confidence": 0.87
+      },
+      {
+        "name": "Middleware",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Custom middleware for authentication, rate limiting, and logging" },
+          { "type": "code", "detail": "Request/response middleware implementations in uploaded Laravel code" }
+        ],
+        "confidence": 0.82
+      },
+      {
+        "name": "Artisan CLI",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Built custom Artisan commands for data imports and scheduled tasks" },
+          { "type": "github", "detail": "Custom command implementations in Laravel project repositories" }
+        ],
+        "confidence": 0.86
+      },
+      {
+        "name": "MySQL",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "5 years MySQL with query optimization and schema design" },
+          { "type": "code", "detail": "Optimized queries and indexing strategies in uploaded migration files" }
+        ],
+        "confidence": 0.88
+      },
+      {
+        "name": "Redis",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Redis for caching, sessions, and queue driver in Laravel apps" },
+          { "type": "github", "detail": "Redis cache implementations in Laravel project repos" }
+        ],
+        "confidence": 0.81
+      },
+      {
+        "name": "Database Migrations",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Managed complex database migration strategies across environments" },
+          { "type": "code", "detail": "Migration files with rollback support and data transformations in uploaded code" }
+        ],
+        "confidence": 0.87
+      },
+      {
+        "name": "Vue.js/Livewire",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "3 years Vue.js experience and 2 years Livewire for reactive UIs" },
+          { "type": "github", "detail": "Vue.js SPA components and Livewire real-time features in project repos" },
+          { "type": "code", "detail": "Interactive dashboard components using Vue 3 Composition API in uploaded code" }
+        ],
+        "confidence": 0.89
+      },
+      {
+        "name": "Tailwind CSS",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Tailwind CSS for UI development in Laravel/Vue projects" },
+          { "type": "code", "detail": "Tailwind-based responsive layouts in uploaded frontend code" }
+        ],
+        "confidence": 0.80
+      },
+      {
+        "name": "Inertia.js",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Built 2 applications using Inertia.js for Laravel-Vue integration" },
+          { "type": "github", "detail": "Inertia.js adapter configurations in project repos" }
+        ],
+        "confidence": 0.79
+      },
+      {
+        "name": "PHPUnit",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Unit and integration testing with PHPUnit in Laravel projects" },
+          { "type": "github", "detail": "Test suites with 75%+ coverage in Laravel repos" }
+        ],
+        "confidence": 0.82
+      },
+      {
+        "name": "Feature Tests",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Laravel feature tests for HTTP endpoints and database interactions" },
+          { "type": "code", "detail": "API feature tests with factory-based data setup in uploaded test files" }
+        ],
+        "confidence": 0.81
+      },
+      {
+        "name": "Composer",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Composer dependency management and autoloading configuration" },
+          { "type": "github", "detail": "Published Laravel package on Packagist" }
+        ],
+        "confidence": 0.85
+      },
+      {
+        "name": "Docker",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Laravel Sail and basic Docker Compose for development" }
+        ],
+        "confidence": 0.71
+      },
+      {
+        "name": "CI/CD",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "GitHub Actions for running Laravel test suites" }
+        ],
+        "confidence": 0.70
+      },
+      {
+        "name": "JavaScript ES6+",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "JavaScript for Vue.js frontend development" },
+          { "type": "github", "detail": "ES6+ code in Vue component repositories" }
+        ],
+        "confidence": 0.80
+      },
+      {
+        "name": "HTML5/CSS3",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Semantic HTML and CSS for Blade template development" }
+        ],
+        "confidence": 0.78
+      },
+      {
+        "name": "REST API Design",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "RESTful API design with Laravel API Resources" },
+          { "type": "code", "detail": "API resource transformations and versioning in uploaded code" }
+        ],
+        "confidence": 0.82
+      },
+      {
+        "name": "Git",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Git workflow with feature branches and pull requests" },
+          { "type": "github", "detail": "Consistent commit history across project repositories" }
+        ],
+        "confidence": 0.80
+      }
+    ]
+  },
+  {
+    "id": "sp-004",
+    "member_id": "m-004",
+    "skills": [
+      {
+        "name": "TypeScript",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "4 years TypeScript in Node.js backend services" },
+          { "type": "github", "detail": "TypeScript-first approach in all backend repositories" },
+          { "type": "code", "detail": "Advanced type definitions and generics in uploaded NestJS service code" }
+        ],
+        "confidence": 0.90
+      },
+      {
+        "name": "JavaScript ES6+",
+        "level": 5,
+        "evidence_sources": [
+          { "type": "cv", "detail": "7 years JavaScript, deep understanding of async patterns and event loop" },
+          { "type": "github", "detail": "256 contributions to JavaScript repositories" }
+        ],
+        "confidence": 0.93
+      },
+      {
+        "name": "Node.js Runtime",
+        "level": 5,
+        "evidence_sources": [
+          { "type": "cv", "detail": "6 years Node.js, expert in streams, clustering, and performance tuning" },
+          { "type": "github", "detail": "Custom Node.js streaming library with 150+ stars" },
+          { "type": "code", "detail": "Worker thread implementations and memory optimization in uploaded code" }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "name": "Express.js",
+        "level": 5,
+        "evidence_sources": [
+          { "type": "cv", "detail": "6 years Express.js, built high-traffic APIs handling 10K+ req/s" },
+          { "type": "github", "detail": "Express middleware packages published on npm" },
+          { "type": "code", "detail": "Custom error handling and middleware chains in uploaded Express apps" }
+        ],
+        "confidence": 0.94
+      },
+      {
+        "name": "NestJS",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "3 years NestJS for enterprise microservices architecture" },
+          { "type": "github", "detail": "NestJS microservice templates and custom decorators in repos" }
+        ],
+        "confidence": 0.88
+      },
+      {
+        "name": "Middleware Patterns",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Expert in middleware composition for auth, logging, and rate limiting" },
+          { "type": "code", "detail": "Composable middleware factory patterns in uploaded Express code" }
+        ],
+        "confidence": 0.87
+      },
+      {
+        "name": "MongoDB",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "4 years MongoDB with aggregation pipelines and sharding" },
+          { "type": "github", "detail": "MongoDB schema design and indexing strategies in project repos" },
+          { "type": "code", "detail": "Complex aggregation pipelines in uploaded service code" }
+        ],
+        "confidence": 0.89
+      },
+      {
+        "name": "PostgreSQL",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "2 years PostgreSQL with Prisma ORM in NestJS projects" },
+          { "type": "github", "detail": "Prisma schema definitions and migrations in project repos" }
+        ],
+        "confidence": 0.81
+      },
+      {
+        "name": "Prisma/Mongoose ORM",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Extensive use of Mongoose (4 years) and Prisma (2 years) ORMs" },
+          { "type": "code", "detail": "Custom Mongoose plugins and Prisma middleware in uploaded code" }
+        ],
+        "confidence": 0.87
+      },
+      {
+        "name": "REST API Design",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Designed RESTful APIs following OpenAPI spec with versioning strategies" },
+          { "type": "github", "detail": "Swagger/OpenAPI documentation in backend project repos" },
+          { "type": "code", "detail": "HATEOAS-compliant API responses in uploaded Express code" }
+        ],
+        "confidence": 0.90
+      },
+      {
+        "name": "GraphQL",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "GraphQL API development with Apollo Server in NestJS" },
+          { "type": "github", "detail": "GraphQL schema and resolver implementations in repos" }
+        ],
+        "confidence": 0.80
+      },
+      {
+        "name": "WebSockets",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Real-time features with Socket.io and WebSocket protocol" },
+          { "type": "code", "detail": "Chat and notification systems using Socket.io in uploaded code" }
+        ],
+        "confidence": 0.82
+      },
+      {
+        "name": "Authentication/JWT",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Implemented JWT, OAuth2, and session-based auth across multiple projects" },
+          { "type": "github", "detail": "Auth middleware package with refresh token rotation on npm" },
+          { "type": "code", "detail": "Passport.js strategies and JWT validation in uploaded auth module" }
+        ],
+        "confidence": 0.91
+      },
+      {
+        "name": "Jest",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Comprehensive testing with Jest including mocking and snapshot tests" },
+          { "type": "github", "detail": "85%+ test coverage across backend repositories" }
+        ],
+        "confidence": 0.88
+      },
+      {
+        "name": "Supertest",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "API integration testing with Supertest in Express and NestJS apps" },
+          { "type": "code", "detail": "Supertest-based API test suites in uploaded test files" }
+        ],
+        "confidence": 0.82
+      },
+      {
+        "name": "Docker",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Dockerized Node.js microservices with multi-stage builds" },
+          { "type": "github", "detail": "Dockerfile and docker-compose configurations in project repos" }
+        ],
+        "confidence": 0.83
+      },
+      {
+        "name": "AWS/Cloud",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Basic AWS experience with EC2, S3, and Lambda" }
+        ],
+        "confidence": 0.70
+      },
+      {
+        "name": "CI/CD",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "GitHub Actions pipelines for testing and Docker image builds" }
+        ],
+        "confidence": 0.72
+      },
+      {
+        "name": "Git",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Advanced Git workflows including rebasing and cherry-picking" },
+          { "type": "github", "detail": "Clean commit history and PR-based workflow across all repos" }
+        ],
+        "confidence": 0.87
+      },
+      {
+        "name": "HTML5/CSS3",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Basic HTML/CSS for server-rendered views" }
+        ],
+        "confidence": 0.68
+      },
+      {
+        "name": "Redis",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Redis for caching, session storage, and pub/sub in Node.js apps" },
+          { "type": "github", "detail": "Redis integration patterns in Express microservice repos" }
+        ],
+        "confidence": 0.82
+      }
+    ]
+  },
+  {
+    "id": "sp-005",
+    "member_id": "m-005",
+    "skills": [
+      {
+        "name": "JavaScript ES6+",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "5 years JavaScript for Shopify theme and app development" },
+          { "type": "github", "detail": "JavaScript contributions across Shopify theme repos" }
+        ],
+        "confidence": 0.88
+      },
+      {
+        "name": "Liquid Templating",
+        "level": 5,
+        "evidence_sources": [
+          { "type": "cv", "detail": "5 years Liquid expertise, built 20+ custom Shopify themes" },
+          { "type": "github", "detail": "Custom Liquid snippets and sections library with 300+ stars" },
+          { "type": "code", "detail": "Advanced Liquid logic with metafield rendering in uploaded theme code" }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "name": "HTML5/CSS3",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Semantic HTML and modern CSS for e-commerce storefronts" },
+          { "type": "code", "detail": "Accessible product page markup in uploaded theme files" }
+        ],
+        "confidence": 0.87
+      },
+      {
+        "name": "Theme Development",
+        "level": 5,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Built custom Shopify themes from scratch for enterprise merchants" },
+          { "type": "github", "detail": "3 published Shopify themes on Theme Store" },
+          { "type": "code", "detail": "Complete theme architecture with section schemas in uploaded code" }
+        ],
+        "confidence": 0.94
+      },
+      {
+        "name": "Shopify CLI",
+        "level": 5,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Daily use of Shopify CLI for theme and app development workflows" },
+          { "type": "github", "detail": "CLI-based development workflows documented in project READMEs" }
+        ],
+        "confidence": 0.92
+      },
+      {
+        "name": "Storefront API",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Headless commerce implementations using Shopify Storefront API" },
+          { "type": "github", "detail": "Storefront API client wrappers in project repos" },
+          { "type": "code", "detail": "Custom storefront API queries for product filtering in uploaded code" }
+        ],
+        "confidence": 0.89
+      },
+      {
+        "name": "Dawn Theme",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Extensive Dawn theme customization and extension experience" },
+          { "type": "code", "detail": "Custom Dawn sections and blocks in uploaded theme code" }
+        ],
+        "confidence": 0.87
+      },
+      {
+        "name": "Shopify App Bridge",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Built 2 embedded Shopify apps using App Bridge" },
+          { "type": "github", "detail": "App Bridge integration code in Shopify app repos" }
+        ],
+        "confidence": 0.82
+      },
+      {
+        "name": "Polaris UI",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Polaris design system for Shopify app admin interfaces" },
+          { "type": "code", "detail": "Polaris component usage in uploaded Shopify app code" }
+        ],
+        "confidence": 0.80
+      },
+      {
+        "name": "Webhooks",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Shopify webhook handling for order and inventory sync" },
+          { "type": "github", "detail": "Webhook handler implementations in app repos" }
+        ],
+        "confidence": 0.81
+      },
+      {
+        "name": "Node.js",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Node.js backend for Shopify app development" },
+          { "type": "github", "detail": "Express-based Shopify app backends in repos" }
+        ],
+        "confidence": 0.80
+      },
+      {
+        "name": "REST Admin API",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Extensive use of Shopify REST Admin API for store management" },
+          { "type": "github", "detail": "Admin API integration patterns in multiple project repos" },
+          { "type": "code", "detail": "Bulk product and order operations via Admin API in uploaded code" }
+        ],
+        "confidence": 0.89
+      },
+      {
+        "name": "GraphQL Storefront API",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "GraphQL queries for headless storefront implementations" },
+          { "type": "github", "detail": "GraphQL Storefront API queries in project repositories" }
+        ],
+        "confidence": 0.79
+      },
+      {
+        "name": "OAuth",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "OAuth flow implementation for Shopify app authentication" }
+        ],
+        "confidence": 0.72
+      },
+      {
+        "name": "Git",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Git version control with theme development workflows" },
+          { "type": "github", "detail": "Active GitHub profile with Shopify project contributions" }
+        ],
+        "confidence": 0.80
+      },
+      {
+        "name": "Testing",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Basic testing for Shopify app endpoints" }
+        ],
+        "confidence": 0.68
+      },
+      {
+        "name": "CSS Modules",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "CSS Modules in React-based Shopify app frontends" }
+        ],
+        "confidence": 0.67
+      },
+      {
+        "name": "E-commerce Concepts",
+        "level": 5,
+        "evidence_sources": [
+          { "type": "cv", "detail": "5 years dedicated e-commerce, managed stores with $5M+ annual revenue" },
+          { "type": "code", "detail": "Complex discount logic and inventory management in uploaded app code" }
+        ],
+        "confidence": 0.93
+      },
+      {
+        "name": "Conversion Optimization",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "A/B testing and conversion optimization for Shopify storefronts" },
+          { "type": "code", "detail": "Checkout optimization scripts in uploaded theme code" }
+        ],
+        "confidence": 0.80
+      },
+      {
+        "name": "Performance Optimization",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Shopify theme performance optimization achieving 90+ Lighthouse scores" },
+          { "type": "code", "detail": "Lazy loading and critical CSS strategies in uploaded theme code" }
+        ],
+        "confidence": 0.82
+      },
+      {
+        "name": "jQuery",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "jQuery for interactive storefront features in legacy themes" },
+          { "type": "code", "detail": "jQuery-based cart and product interactions in uploaded theme JS" }
+        ],
+        "confidence": 0.79
+      }
+    ]
+  },
+  {
+    "id": "sp-006",
+    "member_id": "m-006",
+    "skills": [
+      {
+        "name": "Python",
+        "level": 5,
+        "evidence_sources": [
+          { "type": "cv", "detail": "8 years Python experience across web, data, and automation projects" },
+          { "type": "github", "detail": "450+ contributions to Python repositories, 2 packages on PyPI" },
+          { "type": "code", "detail": "Advanced Python patterns including decorators, metaclasses, and context managers" }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "name": "Django",
+        "level": 5,
+        "evidence_sources": [
+          { "type": "cv", "detail": "6 years Django, architected 5 enterprise applications from scratch" },
+          { "type": "github", "detail": "Django reusable app published on PyPI with 200+ downloads/month" },
+          { "type": "code", "detail": "Custom model managers, middleware, and template tags in uploaded Django project" }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "name": "PostgreSQL",
+        "level": 5,
+        "evidence_sources": [
+          { "type": "cv", "detail": "7 years PostgreSQL with advanced features: CTEs, window functions, partitioning" },
+          { "type": "github", "detail": "Complex migration scripts and query optimization PRs in project repos" },
+          { "type": "code", "detail": "Custom PostgreSQL functions and indexed materialized views in uploaded SQL" }
+        ],
+        "confidence": 0.94
+      },
+      {
+        "name": "REST API Design",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Designed REST APIs with Django REST Framework for 4 production apps" },
+          { "type": "github", "detail": "DRF viewsets, serializers, and pagination in open-source project" },
+          { "type": "code", "detail": "API versioning and throttling configuration in uploaded DRF code" }
+        ],
+        "confidence": 0.90
+      },
+      {
+        "name": "OOP Patterns",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Strong OOP with design patterns applied in Django architecture" },
+          { "type": "code", "detail": "Strategy and Observer patterns in uploaded Django service layer" }
+        ],
+        "confidence": 0.87
+      },
+      {
+        "name": "Docker",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Docker Compose for Django development and staging environments" },
+          { "type": "github", "detail": "Multi-stage Dockerfiles for Django apps in project repos" }
+        ],
+        "confidence": 0.83
+      },
+      {
+        "name": "CI/CD",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "GitHub Actions for Django test suite and linting" }
+        ],
+        "confidence": 0.71
+      },
+      {
+        "name": "Git",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Git-based workflow with feature branches and code reviews" },
+          { "type": "github", "detail": "Consistent contribution history on GitHub" }
+        ],
+        "confidence": 0.80
+      },
+      {
+        "name": "HTML5/CSS3",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Basic HTML/CSS for Django template development" }
+        ],
+        "confidence": 0.69
+      },
+      {
+        "name": "JavaScript ES6+",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Basic JavaScript for Django frontend interactivity" }
+        ],
+        "confidence": 0.68
+      },
+      {
+        "name": "TypeScript",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Exposure to TypeScript in side projects" }
+        ],
+        "confidence": 0.62
+      },
+      {
+        "name": "Testing",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Comprehensive testing with pytest and Django TestCase" },
+          { "type": "github", "detail": "90%+ test coverage maintained across Django projects" },
+          { "type": "code", "detail": "Factory-based test data generation with factory_boy in uploaded tests" }
+        ],
+        "confidence": 0.90
+      },
+      {
+        "name": "Redis",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Redis for Django caching and Celery broker" },
+          { "type": "github", "detail": "Redis cache backend configuration in Django project settings" }
+        ],
+        "confidence": 0.81
+      },
+      {
+        "name": "Celery",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Celery task queues for async processing in Django apps" },
+          { "type": "code", "detail": "Celery task definitions with retry logic in uploaded code" }
+        ],
+        "confidence": 0.82
+      },
+      {
+        "name": "AWS/Cloud",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Basic AWS with S3, RDS, and Elastic Beanstalk for Django deployment" }
+        ],
+        "confidence": 0.70
+      },
+      {
+        "name": "Database Migrations",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Complex Django migration strategies with zero-downtime deployments" },
+          { "type": "code", "detail": "Data migration scripts and RunPython operations in uploaded migrations" }
+        ],
+        "confidence": 0.88
+      },
+      {
+        "name": "MySQL",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "MySQL experience in earlier Django projects before PostgreSQL adoption" }
+        ],
+        "confidence": 0.76
+      },
+      {
+        "name": "Elasticsearch",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Elasticsearch integration for full-text search in Django app" }
+        ],
+        "confidence": 0.67
+      }
+    ]
+  },
+  {
+    "id": "sp-007",
+    "member_id": "m-007",
+    "skills": [
+      {
+        "name": "PHP 8",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "4 years PHP experience with PHP 8 features in Laravel projects" },
+          { "type": "github", "detail": "PHP 8 code with typed properties and union types in repos" }
+        ],
+        "confidence": 0.87
+      },
+      {
+        "name": "Laravel 11",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "4 years Laravel, built 3 full-stack applications" },
+          { "type": "github", "detail": "Laravel project repos with clean architecture patterns" },
+          { "type": "code", "detail": "Laravel service layer and event system in uploaded project code" }
+        ],
+        "confidence": 0.89
+      },
+      {
+        "name": "React 18",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "3 years React for building SPAs consuming Laravel APIs" },
+          { "type": "github", "detail": "React component libraries in project repositories" },
+          { "type": "code", "detail": "React hooks and context patterns in uploaded frontend code" }
+        ],
+        "confidence": 0.88
+      },
+      {
+        "name": "TypeScript",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "2 years TypeScript adoption in React projects" },
+          { "type": "github", "detail": "TypeScript React components in recent project repos" }
+        ],
+        "confidence": 0.80
+      },
+      {
+        "name": "JavaScript ES6+",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "5 years JavaScript for frontend development" },
+          { "type": "github", "detail": "JavaScript contributions across React and Vue repos" }
+        ],
+        "confidence": 0.87
+      },
+      {
+        "name": "Tailwind CSS",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Tailwind CSS for rapid UI development in Laravel and React projects" },
+          { "type": "code", "detail": "Tailwind utility classes and responsive design in uploaded templates" }
+        ],
+        "confidence": 0.80
+      },
+      {
+        "name": "MySQL",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "MySQL database design for Laravel applications" },
+          { "type": "github", "detail": "Database schemas and migrations in Laravel project repos" }
+        ],
+        "confidence": 0.81
+      },
+      {
+        "name": "REST API Design",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "RESTful API design connecting Laravel backends to React frontends" },
+          { "type": "code", "detail": "API resource controllers in uploaded Laravel code" }
+        ],
+        "confidence": 0.82
+      },
+      {
+        "name": "Docker",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Docker for local development with Laravel Sail" }
+        ],
+        "confidence": 0.70
+      },
+      {
+        "name": "Git",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Git workflow with branching and pull requests" },
+          { "type": "github", "detail": "Regular contributions visible on GitHub profile" }
+        ],
+        "confidence": 0.80
+      },
+      {
+        "name": "Eloquent ORM",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Eloquent relationships and query builders in Laravel apps" },
+          { "type": "code", "detail": "Eloquent model relationships in uploaded application code" }
+        ],
+        "confidence": 0.82
+      },
+      {
+        "name": "Blade Templates",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Blade templating for server-rendered pages in Laravel apps" }
+        ],
+        "confidence": 0.78
+      },
+      {
+        "name": "Vue.js/Livewire",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Basic Vue.js experience in early Laravel projects" }
+        ],
+        "confidence": 0.68
+      },
+      {
+        "name": "Next.js 14 App Router",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Learning Next.js for upcoming headless project" }
+        ],
+        "confidence": 0.63
+      },
+      {
+        "name": "Zustand/Redux",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Redux state management in React applications" }
+        ],
+        "confidence": 0.68
+      },
+      {
+        "name": "Jest",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Basic Jest testing for React components" }
+        ],
+        "confidence": 0.67
+      },
+      {
+        "name": "PHPUnit",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "PHPUnit testing for Laravel API endpoints" }
+        ],
+        "confidence": 0.68
+      },
+      {
+        "name": "HTML5/CSS3",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "HTML and CSS for full-stack web development" },
+          { "type": "code", "detail": "Semantic markup in uploaded React and Blade templates" }
+        ],
+        "confidence": 0.80
+      },
+      {
+        "name": "Node.js",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Basic Node.js for build tools and scripts" }
+        ],
+        "confidence": 0.66
+      },
+      {
+        "name": "Responsive Design",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Responsive layouts with Tailwind and CSS media queries" },
+          { "type": "code", "detail": "Mobile-first responsive designs in uploaded frontend code" }
+        ],
+        "confidence": 0.79
+      },
+      {
+        "name": "Composer",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Composer for Laravel dependency management" }
+        ],
+        "confidence": 0.78
+      },
+      {
+        "name": "Middleware",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Laravel middleware for auth and request filtering" },
+          { "type": "code", "detail": "Custom middleware implementations in uploaded Laravel project" }
+        ],
+        "confidence": 0.80
+      }
+    ]
+  },
+  {
+    "id": "sp-008",
+    "member_id": "m-008",
+    "skills": [
+      {
+        "name": "Docker",
+        "level": 5,
+        "evidence_sources": [
+          { "type": "cv", "detail": "6 years Docker, manages container orchestration for 50+ microservices" },
+          { "type": "github", "detail": "Custom Docker base images and multi-stage build templates on Docker Hub" },
+          { "type": "code", "detail": "Production-grade Dockerfiles with security hardening in uploaded configs" }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "name": "CI/CD",
+        "level": 5,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Designed CI/CD pipelines for 10+ teams using GitHub Actions and GitLab CI" },
+          { "type": "github", "detail": "Reusable GitHub Actions workflow templates with 400+ stars" },
+          { "type": "code", "detail": "Complex multi-environment pipeline configs in uploaded YAML" }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "name": "AWS/Cloud",
+        "level": 5,
+        "evidence_sources": [
+          { "type": "cv", "detail": "AWS Solutions Architect certified, managed $200K+/year cloud infrastructure" },
+          { "type": "github", "detail": "Terraform modules for AWS infrastructure in open-source repos" },
+          { "type": "code", "detail": "CloudFormation and CDK stacks in uploaded infrastructure code" }
+        ],
+        "confidence": 0.95
+      },
+      {
+        "name": "Kubernetes",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "3 years Kubernetes, manages production clusters with 100+ pods" },
+          { "type": "github", "detail": "Helm charts and Kubernetes manifests in infrastructure repos" },
+          { "type": "code", "detail": "Custom operators and HPA configurations in uploaded K8s manifests" }
+        ],
+        "confidence": 0.90
+      },
+      {
+        "name": "Terraform",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Infrastructure as code with Terraform for multi-cloud environments" },
+          { "type": "github", "detail": "Published Terraform modules on Terraform Registry" },
+          { "type": "code", "detail": "Terraform state management and module composition in uploaded configs" }
+        ],
+        "confidence": 0.89
+      },
+      {
+        "name": "Linux/Shell",
+        "level": 5,
+        "evidence_sources": [
+          { "type": "cv", "detail": "10 years Linux administration, expert in shell scripting and system tuning" },
+          { "type": "github", "detail": "Bash automation scripts library with 150+ stars" },
+          { "type": "code", "detail": "Advanced shell scripts for deployment automation in uploaded code" }
+        ],
+        "confidence": 0.94
+      },
+      {
+        "name": "Git",
+        "level": 5,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Git administration including hooks, subtrees, and repository management" },
+          { "type": "github", "detail": "Git workflow documentation and hook scripts in DevOps repos" }
+        ],
+        "confidence": 0.93
+      },
+      {
+        "name": "Monitoring",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Prometheus, Grafana, and Datadog monitoring for production systems" },
+          { "type": "github", "detail": "Grafana dashboard templates and alerting rules in repos" },
+          { "type": "code", "detail": "Custom Prometheus exporters in uploaded monitoring code" }
+        ],
+        "confidence": 0.89
+      },
+      {
+        "name": "Nginx",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Nginx configuration for reverse proxy, load balancing, and SSL termination" },
+          { "type": "code", "detail": "Complex Nginx configs with rate limiting and caching in uploaded files" }
+        ],
+        "confidence": 0.88
+      },
+      {
+        "name": "Python",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Python for automation scripts and DevOps tooling" },
+          { "type": "github", "detail": "Python-based CLI tools for infrastructure management in repos" }
+        ],
+        "confidence": 0.82
+      },
+      {
+        "name": "Node.js Runtime",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Basic Node.js understanding for containerizing Node applications" }
+        ],
+        "confidence": 0.68
+      },
+      {
+        "name": "PostgreSQL",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "PostgreSQL administration including replication, backups, and tuning" },
+          { "type": "code", "detail": "Database backup and recovery scripts in uploaded automation code" }
+        ],
+        "confidence": 0.82
+      },
+      {
+        "name": "MySQL",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "MySQL server administration and performance tuning" }
+        ],
+        "confidence": 0.78
+      },
+      {
+        "name": "Redis",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Redis cluster setup and monitoring in production" },
+          { "type": "code", "detail": "Redis Sentinel configuration in uploaded infrastructure code" }
+        ],
+        "confidence": 0.81
+      },
+      {
+        "name": "Elasticsearch",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Elasticsearch cluster management and index lifecycle policies" },
+          { "type": "code", "detail": "ELK stack Docker Compose configurations in uploaded files" }
+        ],
+        "confidence": 0.80
+      },
+      {
+        "name": "Security",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Infrastructure security with VPC design, IAM policies, and secrets management" },
+          { "type": "github", "detail": "Security scanning pipeline configurations in CI/CD repos" }
+        ],
+        "confidence": 0.82
+      },
+      {
+        "name": "Networking",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Network architecture including VPCs, subnets, VPNs, and DNS management" },
+          { "type": "code", "detail": "Terraform VPC and networking modules in uploaded infrastructure code" }
+        ],
+        "confidence": 0.87
+      },
+      {
+        "name": "Cloud Deployment",
+        "level": 5,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Zero-downtime deployment strategies: blue-green, canary, rolling updates" },
+          { "type": "github", "detail": "Deployment automation scripts and ArgoCD configurations in repos" },
+          { "type": "code", "detail": "Custom deployment pipeline with rollback capability in uploaded code" }
+        ],
+        "confidence": 0.94
+      },
+      {
+        "name": "Performance Optimization",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Infrastructure performance tuning for CPU, memory, and I/O bottlenecks" },
+          { "type": "code", "detail": "Load testing scripts and performance benchmark configurations in uploaded code" }
+        ],
+        "confidence": 0.82
+      },
+      {
+        "name": "Database Migrations",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Database migration support from ops perspective during deployments" }
+        ],
+        "confidence": 0.68
+      }
+    ]
+  },
+  {
+    "id": "sp-009",
+    "member_id": "m-009",
+    "skills": [
+      {
+        "name": "React 18",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "4 years React with focus on accessible, user-centered component design" },
+          { "type": "code", "detail": "ARIA-compliant React components with animation patterns in uploaded code" }
+        ],
+        "confidence": 0.87
+      },
+      {
+        "name": "TypeScript",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "2 years TypeScript in React projects for type-safe component props" }
+        ],
+        "confidence": 0.77
+      },
+      {
+        "name": "JavaScript ES6+",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "5 years JavaScript for interactive frontend development" },
+          { "type": "code", "detail": "Modern JS patterns in uploaded React component code" }
+        ],
+        "confidence": 0.86
+      },
+      {
+        "name": "Tailwind CSS",
+        "level": 5,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Primary CSS framework, built complete design systems with Tailwind" },
+          { "type": "code", "detail": "Custom Tailwind theme configuration and component library in uploaded code" }
+        ],
+        "confidence": 0.92
+      },
+      {
+        "name": "CSS Modules",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "CSS Modules for scoped styling in React applications" },
+          { "type": "code", "detail": "CSS Module patterns with composition in uploaded stylesheets" }
+        ],
+        "confidence": 0.86
+      },
+      {
+        "name": "Responsive Design",
+        "level": 5,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Expert in responsive and adaptive design across all device categories" },
+          { "type": "code", "detail": "Complex responsive layouts with container queries in uploaded CSS code" }
+        ],
+        "confidence": 0.93
+      },
+      {
+        "name": "HTML5/CSS3",
+        "level": 5,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Expert semantic HTML and modern CSS including Grid, Flexbox, and animations" },
+          { "type": "code", "detail": "Advanced CSS animations and semantic HTML structure in uploaded files" }
+        ],
+        "confidence": 0.93
+      },
+      {
+        "name": "Figma/Design",
+        "level": 5,
+        "evidence_sources": [
+          { "type": "cv", "detail": "5 years Figma for UI/UX design, component libraries, and prototyping" },
+          { "type": "cv", "detail": "Led design system creation for 3 enterprise applications" }
+        ],
+        "confidence": 0.92
+      },
+      {
+        "name": "Accessibility",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "WCAG 2.1 AA compliance expertise, conducted accessibility audits" },
+          { "type": "code", "detail": "ARIA landmarks, focus management, and screen reader testing in uploaded code" }
+        ],
+        "confidence": 0.88
+      },
+      {
+        "name": "Next.js 14 App Router",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Next.js for building accessible, SEO-friendly web applications" },
+          { "type": "code", "detail": "Next.js page components with metadata optimization in uploaded code" }
+        ],
+        "confidence": 0.79
+      },
+      {
+        "name": "Jest",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Basic component snapshot testing with Jest" }
+        ],
+        "confidence": 0.68
+      },
+      {
+        "name": "React Testing Library",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Accessibility-focused component testing with RTL" }
+        ],
+        "confidence": 0.67
+      },
+      {
+        "name": "Git",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Git for version control and design-development collaboration" }
+        ],
+        "confidence": 0.76
+      },
+      {
+        "name": "Zustand/Redux",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Basic state management in React applications" }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "name": "TanStack Query",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Data fetching with TanStack Query in Next.js projects" }
+        ],
+        "confidence": 0.64
+      },
+      {
+        "name": "Vercel/Deployment",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Basic Vercel deployment for frontend projects" }
+        ],
+        "confidence": 0.66
+      },
+      {
+        "name": "Server Components",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Familiarity with React Server Components in Next.js" }
+        ],
+        "confidence": 0.62
+      },
+      {
+        "name": "Node.js",
+        "level": 1,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Minimal Node.js exposure for running build tools" }
+        ],
+        "confidence": 0.55
+      }
+    ]
+  },
+  {
+    "id": "sp-010",
+    "member_id": "m-010",
+    "skills": [
+      {
+        "name": "PHP 8",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "6 years PHP experience with PHP 8 adoption in Magento projects" },
+          { "type": "github", "detail": "PHP 8 typed code across Magento extension repositories" }
+        ],
+        "confidence": 0.88
+      },
+      {
+        "name": "OOP Patterns",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "OOP design patterns used in Magento module development" },
+          { "type": "code", "detail": "Factory and Builder patterns in uploaded Magento code" }
+        ],
+        "confidence": 0.81
+      },
+      {
+        "name": "Magento Module Development",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "5 years Magento 2 development, built 10+ custom modules" },
+          { "type": "github", "detail": "Published Magento 2 extensions on GitHub with 100+ combined stars" },
+          { "type": "code", "detail": "Custom module with cron jobs and admin grid in uploaded code" }
+        ],
+        "confidence": 0.90
+      },
+      {
+        "name": "EAV Architecture",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Deep understanding of Magento EAV model for product data management" },
+          { "type": "code", "detail": "Custom EAV attributes and flat indexer implementations in uploaded code" }
+        ],
+        "confidence": 0.87
+      },
+      {
+        "name": "Plugin/Preference System",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Magento plugin and preference system for core behavior customization" },
+          { "type": "github", "detail": "Plugin-based extensions in Magento project repos" }
+        ],
+        "confidence": 0.82
+      },
+      {
+        "name": "MySQL",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "5 years MySQL with Magento database optimization experience" },
+          { "type": "code", "detail": "Custom setup scripts and declarative schema in uploaded modules" }
+        ],
+        "confidence": 0.87
+      },
+      {
+        "name": "REST API Design",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Magento REST API integration for third-party systems" },
+          { "type": "github", "detail": "Custom REST endpoint implementations in extension repos" }
+        ],
+        "confidence": 0.81
+      },
+      {
+        "name": "Docker",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Docker-based Magento development environment" }
+        ],
+        "confidence": 0.69
+      },
+      {
+        "name": "Knockout.js",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Knockout.js for Magento checkout customizations" },
+          { "type": "code", "detail": "Custom checkout step components in uploaded Magento JS code" }
+        ],
+        "confidence": 0.82
+      },
+      {
+        "name": "LESS/CSS",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "LESS-based theme styling for Magento storefronts" },
+          { "type": "code", "detail": "Custom LESS variables and mixins in uploaded theme files" }
+        ],
+        "confidence": 0.80
+      },
+      {
+        "name": "jQuery",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "jQuery for Magento frontend interactions and widget extensions" },
+          { "type": "code", "detail": "Custom jQuery widget mixins in uploaded JavaScript files" }
+        ],
+        "confidence": 0.81
+      },
+      {
+        "name": "E-commerce Concepts",
+        "level": 5,
+        "evidence_sources": [
+          { "type": "cv", "detail": "7 years e-commerce experience spanning Magento and multi-platform" },
+          { "type": "code", "detail": "Complex cart rules and multi-store configurations in uploaded code" }
+        ],
+        "confidence": 0.93
+      },
+      {
+        "name": "Payment Integration",
+        "level": 4,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Integrated 8 payment gateways including Stripe, PayPal, and Braintree" },
+          { "type": "github", "detail": "Custom payment method extension with PCI compliance in repos" },
+          { "type": "code", "detail": "Payment gateway adapter with tokenization in uploaded module code" }
+        ],
+        "confidence": 0.90
+      },
+      {
+        "name": "Service Contracts",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Magento service contract implementations for module interoperability" },
+          { "type": "code", "detail": "Repository pattern with service contracts in uploaded module code" }
+        ],
+        "confidence": 0.81
+      },
+      {
+        "name": "Composer",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Composer for Magento module packaging and dependency management" },
+          { "type": "github", "detail": "Packagist-published Magento 2 extensions" }
+        ],
+        "confidence": 0.80
+      },
+      {
+        "name": "GraphQL API",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Exposure to Magento GraphQL API for headless frontend projects" }
+        ],
+        "confidence": 0.66
+      },
+      {
+        "name": "Elasticsearch",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Elasticsearch configuration for Magento catalog search" }
+        ],
+        "confidence": 0.67
+      },
+      {
+        "name": "HTML5/CSS3",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "HTML/CSS for Magento theme customizations" }
+        ],
+        "confidence": 0.70
+      },
+      {
+        "name": "JavaScript ES6+",
+        "level": 2,
+        "evidence_sources": [
+          { "type": "cv", "detail": "JavaScript for Magento frontend module development" }
+        ],
+        "confidence": 0.69
+      },
+      {
+        "name": "CI/CD",
+        "level": 1,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Basic awareness of CI/CD pipelines for Magento deployment" }
+        ],
+        "confidence": 0.52
+      },
+      {
+        "name": "RequireJS",
+        "level": 3,
+        "evidence_sources": [
+          { "type": "cv", "detail": "RequireJS module management in Magento frontend architecture" },
+          { "type": "code", "detail": "RequireJS config and module definitions in uploaded Magento JS code" }
+        ],
+        "confidence": 0.81
+      },
+      {
+        "name": "Cloud Deployment",
+        "level": 1,
+        "evidence_sources": [
+          { "type": "cv", "detail": "Minimal cloud exposure through Magento Cloud deployments" }
+        ],
+        "confidence": 0.50
+      }
+    ]
+  }
+]
