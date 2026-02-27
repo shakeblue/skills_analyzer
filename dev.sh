@@ -21,6 +21,35 @@ cleanup() {
 }
 trap cleanup SIGINT SIGTERM
 
+# ---------- Prerequisites ----------
+echo -e "${CYAN}[0/3] Checking prerequisites...${NC}"
+
+# Python 3
+if ! command -v python3 &>/dev/null; then
+  echo -e "${RED}  python3 not found. Please install Python 3.11+${NC}"
+  exit 1
+fi
+echo -e "${GREEN}  python3 $(python3 --version 2>&1 | awk '{print $2}')${NC}"
+
+# Node.js
+if ! command -v node &>/dev/null; then
+  echo -e "${YELLOW}  Node.js not found. Installing via nvm...${NC}"
+  curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+  export NVM_DIR="$HOME/.nvm"
+  # shellcheck source=/dev/null
+  [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+  nvm install 20
+  nvm use 20
+fi
+echo -e "${GREEN}  node $(node --version)${NC}"
+
+# pnpm
+if ! command -v pnpm &>/dev/null; then
+  echo -e "${YELLOW}  pnpm not found. Installing...${NC}"
+  npm install -g pnpm
+fi
+echo -e "${GREEN}  pnpm $(pnpm --version)${NC}"
+
 # ---------- Backend ----------
 echo -e "${CYAN}[1/3] Setting up backend...${NC}"
 cd "$BACKEND_DIR"
@@ -31,6 +60,7 @@ if [ ! -d "venv" ]; then
 fi
 
 source venv/bin/activate
+pip install -q --upgrade pip
 pip install -q -r requirements.txt
 echo -e "${GREEN}  Backend ready${NC}"
 
