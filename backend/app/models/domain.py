@@ -6,7 +6,7 @@ Python 3.11+ features and Pydantic v2 patterns.
 
 from __future__ import annotations
 
-from typing import Literal
+from typing import Literal, Optional
 
 from pydantic import BaseModel, ConfigDict, Field
 
@@ -24,8 +24,8 @@ class TeamMember(BaseModel):
     name: str = Field(..., min_length=1, description="Full name of the member")
     department: str = Field(..., description="Department the member belongs to")
     role: str = Field(..., description="Current job role / title")
-    avatar_url: str | None = Field(default=None, description="URL to avatar image")
-    github_url: str | None = Field(default=None, description="GitHub profile URL")
+    avatar_url: Optional[str] = Field(default=None, description="URL to avatar image")
+    github_url: Optional[str] = Field(default=None, description="GitHub profile URL")
     cv_uploaded: bool = Field(default=False, description="Whether a CV has been uploaded")
     code_uploaded: bool = Field(
         default=False, description="Whether code samples have been uploaded"

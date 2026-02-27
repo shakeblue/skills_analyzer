@@ -1,5 +1,7 @@
 """Members API: GET /api/members, GET /api/members/{id}"""
 
+from typing import Optional
+
 from fastapi import APIRouter, HTTPException, Query
 
 from app.core.data_store import DataStore
@@ -10,7 +12,7 @@ router = APIRouter(prefix="/api/members", tags=["members"])
 
 @router.get("", response_model=list[TeamMember])
 async def list_members(
-    department: str | None = Query(None, description="Filter by department"),
+    department: Optional[str] = Query(None, description="Filter by department"),
 ) -> list[TeamMember]:
     """Return all team members, optionally filtered by department."""
     store = DataStore.get_instance()

@@ -8,7 +8,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
-from typing import Any
+from typing import Any, Optional
 
 from app.models.domain import (
     Analysis,
@@ -24,7 +24,7 @@ DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 class DataStore:
     """In-memory data store backed by JSON files."""
 
-    _instance: DataStore | None = None
+    _instance: Optional[DataStore] = None
 
     def __init__(self) -> None:
         self._members: list[TeamMember] = []
@@ -81,7 +81,7 @@ class DataStore:
     def get_members(self) -> list[TeamMember]:
         return list(self._members)
 
-    def get_member(self, member_id: str) -> TeamMember | None:
+    def get_member(self, member_id: str) -> Optional[TeamMember]:
         return next((m for m in self._members if m.id == member_id), None)
 
     def get_members_by_department(self, department: str) -> list[TeamMember]:
@@ -92,7 +92,7 @@ class DataStore:
     def get_projects(self) -> list[ProjectProfile]:
         return list(self._projects)
 
-    def get_project(self, project_id: str) -> ProjectProfile | None:
+    def get_project(self, project_id: str) -> Optional[ProjectProfile]:
         return next((p for p in self._projects if p.id == project_id), None)
 
     # ---- Skill Profiles ----
@@ -100,10 +100,10 @@ class DataStore:
     def get_skill_profiles(self) -> list[SkillProfile]:
         return list(self._skill_profiles)
 
-    def get_skill_profile(self, profile_id: str) -> SkillProfile | None:
+    def get_skill_profile(self, profile_id: str) -> Optional[SkillProfile]:
         return next((sp for sp in self._skill_profiles if sp.id == profile_id), None)
 
-    def get_skill_profile_by_member(self, member_id: str) -> SkillProfile | None:
+    def get_skill_profile_by_member(self, member_id: str) -> Optional[SkillProfile]:
         return next(
             (sp for sp in self._skill_profiles if sp.member_id == member_id), None
         )
@@ -113,7 +113,7 @@ class DataStore:
     def get_analyses(self) -> list[Analysis]:
         return list(self._analyses)
 
-    def get_analysis(self, analysis_id: str) -> Analysis | None:
+    def get_analysis(self, analysis_id: str) -> Optional[Analysis]:
         return next((a for a in self._analyses if a.id == analysis_id), None)
 
     def add_analysis(self, analysis: Analysis) -> None:
@@ -124,10 +124,10 @@ class DataStore:
     def get_roadmaps(self) -> list[Roadmap]:
         return list(self._roadmaps)
 
-    def get_roadmap(self, roadmap_id: str) -> Roadmap | None:
+    def get_roadmap(self, roadmap_id: str) -> Optional[Roadmap]:
         return next((r for r in self._roadmaps if r.id == roadmap_id), None)
 
-    def get_roadmap_by_analysis(self, analysis_id: str) -> Roadmap | None:
+    def get_roadmap_by_analysis(self, analysis_id: str) -> Optional[Roadmap]:
         return next(
             (r for r in self._roadmaps if r.analysis_id == analysis_id), None
         )

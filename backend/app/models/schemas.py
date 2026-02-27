@@ -6,7 +6,7 @@ standardised request validation and response formatting.
 
 from __future__ import annotations
 
-from typing import Any
+from typing import Any, Optional
 
 from pydantic import BaseModel, Field
 
@@ -66,6 +66,6 @@ class ApiResponse(BaseModel):
 
     success: bool = Field(default=True, description="Whether the request succeeded")
     data: Any = Field(default=None, description="Response payload")
-    message: str | None = Field(
+    message: Optional[str] = Field(
         default=None, description="Optional human-readable message"
     )
