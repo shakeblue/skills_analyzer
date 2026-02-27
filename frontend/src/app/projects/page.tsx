@@ -56,13 +56,21 @@ export default function ProjectsPage() {
   return (
     <div className="space-y-6">
       {/* Page header */}
-      <div>
-        <h1 className="text-3xl font-bold tracking-tight text-slate-900">
-          Project Profiles
-        </h1>
-        <p className="mt-1 text-sm text-muted-foreground">
-          Browse project skill requirements and run fit analyses.
-        </p>
+      <div className="flex items-start justify-between gap-4">
+        <div>
+          <h1 className="text-3xl font-bold tracking-tight text-slate-900">
+            Project Profiles
+          </h1>
+          <p className="mt-1 text-sm text-muted-foreground">
+            Browse project skill requirements and run fit analyses.
+          </p>
+        </div>
+        <Button asChild>
+          <Link href="/projects/new">
+            <FolderKanban className="mr-1 h-4 w-4" />
+            Add Project
+          </Link>
+        </Button>
       </div>
 
       {/* Error state */}

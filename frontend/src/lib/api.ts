@@ -15,6 +15,7 @@ import type {
   CompareRequest,
   ComparisonResult,
   Roadmap,
+  SkillCategory,
 } from "@/lib/types";
 
 // ---------------------------------------------------------------------------
@@ -153,6 +154,21 @@ export function useProjects(
     queryKey: queryKeys.projects.all,
     queryFn: () => fetchApi<ProjectProfile[]>("/api/projects"),
     ...options,
+  });
+}
+
+/** Create a new project profile (mutation). */
+export function useCreateProject() {
+  return useMutation<
+    ProjectProfile,
+    Error,
+    { name: string; platform: string; description: string; categories: SkillCategory[] }
+  >({
+    mutationFn: (request) =>
+      fetchApi<ProjectProfile>("/api/projects", {
+        method: "POST",
+        body: JSON.stringify(request),
+      }),
   });
 }
 

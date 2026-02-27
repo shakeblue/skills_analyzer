@@ -95,6 +95,9 @@ class DataStore:
     def get_project(self, project_id: str) -> Optional[ProjectProfile]:
         return next((p for p in self._projects if p.id == project_id), None)
 
+    def add_project(self, project: ProjectProfile) -> None:
+        self._projects.append(project)
+
     # ---- Skill Profiles ----
 
     def get_skill_profiles(self) -> list[SkillProfile]:
