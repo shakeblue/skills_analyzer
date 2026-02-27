@@ -139,14 +139,19 @@ export default function MembersPage() {
   return (
     <div className="space-y-6">
       {/* Page header */}
-      <div>
-        <h1 className="text-3xl font-bold tracking-tight text-foreground">
-          Team Members
-        </h1>
-        <p className="mt-1 text-muted-foreground">
-          Browse and search the team. Click a member to view their skill
-          profile.
-        </p>
+      <div className="flex items-start justify-between">
+        <div>
+          <h1 className="text-3xl font-bold tracking-tight text-foreground">
+            Team Members
+          </h1>
+          <p className="mt-1 text-muted-foreground">
+            Browse and search the team. Click a member to view their skill
+            profile.
+          </p>
+        </div>
+        <Button asChild>
+          <Link href="/members/new">+ Add Member</Link>
+        </Button>
       </div>
 
       {/* Search & filter bar */}
